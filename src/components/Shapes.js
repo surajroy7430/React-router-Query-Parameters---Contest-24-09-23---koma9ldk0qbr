@@ -4,6 +4,10 @@ import { Link, useLocation } from 'react-router-dom'
 
   
  export default function Shapes() {
+  const location = useLocation();
+  const query = new URLSearchParams(location.search);
+  const shape = query.get('shape');
+  const color = query.get('color');
    
     
   
@@ -26,9 +30,9 @@ import { Link, useLocation } from 'react-router-dom'
             <Link to="/shapes?shape=circle&color=Red">Red Circle</Link>
           </li>
         </ul>
-  
-          
-        
+
+        <Child shape={shape} color={color} />
+
       </div>
     );
   }
