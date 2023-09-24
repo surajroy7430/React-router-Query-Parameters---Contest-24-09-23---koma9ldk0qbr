@@ -12,9 +12,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-router-dom": "^5.3.4"
+    "react": "^16.14.0",
+    "react-dom": "^16.13.1"
   },
   "jest": {
     "moduleNameMapper": {
@@ -40,6 +39,7 @@
     "css-loader": "^4.3.0",
     "file-loader": "6.2.0",
     "html-webpack-plugin": "^4.5.0",
+    "react-router-dom": "^6.16.0",
     "style-loader": "^1.2.1",
     "webpack": "^4.44.2",
     "webpack-cli": "^3.3.12",
